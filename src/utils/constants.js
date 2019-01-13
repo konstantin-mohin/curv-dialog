@@ -1,0 +1,2 @@
+export const APPROVAL_ITEM_HEIGHT = 70;
+export const COMPONENT_HERO_HEIGHT = 250;
