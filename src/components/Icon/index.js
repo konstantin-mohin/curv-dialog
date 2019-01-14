@@ -4,9 +4,10 @@ import {
 	IconToggle,
 } from 'react-native-material-ui';
 
+
 export const Icon = ({ onPress, ...props }) => (
 	onPress ?
-	<IconToggle {...props} /> :
+	<IconToggle onPress={onPress} {...props} /> :
 	<MaterialIcon {...props} />
 );
 
